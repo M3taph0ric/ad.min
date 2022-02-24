@@ -26,7 +26,7 @@ if(isset($aInformation) && is_array($aInformation)){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title><?php echo SVRNAME; ?> - MGCRP</title>
+    <title><?php echo SVRNAME; ?> - STATUS</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.css" rel="stylesheet">
@@ -57,7 +57,7 @@ if(isset($aInformation) && is_array($aInformation)){
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home (Coming Soon)</a></li>
+            <li><a href="https://mgcrp.netlify.app/">Home</a></li>
             <li class="active"><a href="demo.php">Server</a></li>
           </ul>
         </div><!--/.nav-collapse -->
