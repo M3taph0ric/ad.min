@@ -14,7 +14,7 @@ try
 }
 catch (QueryServerException $pError)
 {
-    header("Location: http://yourdomain/error.php"); // Redirects to an error page if the server is offline. Change this according to your site domain name. You can customize the error page by opening 'error.php'
+    header("Location: https://mgcrp-status.netlify.app/error.php"); // Redirects to an error page if the server is offline. Change this according to your site domain name. You can customize the error page by opening 'error.php'
 }
 
 if(isset($aInformation) && is_array($aInformation)){
@@ -58,7 +58,7 @@ if(isset($aInformation) && is_array($aInformation)){
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://mgcrp.netlify.app/">Home</a></li>
-            <li class="active"><a href="demo.php">Server</a></li>
+            <li class="active"><a href="#">Server</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -157,7 +157,7 @@ if(isset($aInformation) && is_array($aInformation)){
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="https://mgcrp-status.netlify.app">Home</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
