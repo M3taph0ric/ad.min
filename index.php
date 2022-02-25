@@ -68,7 +68,7 @@ if(isset($aInformation) && is_array($aInformation)){
     <div class="banner-head">
       <h1><?php echo SVRNAME; ?></h1>
       <h3><?php echo SVRSLOGAN; ?></h3>
-      <div class="banner-head"><img src="myLogo.png" draggable="false"></div>
+      <img src="myLogo.png" draggable="false">
     </div>
     <!-- BANNER END -->
 
